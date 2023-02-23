@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>14</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>868</x>
+      <y>406</y>
+      <w>280</w>
+      <h>196</h>
+    </coordinates>
+    <panel_attributes>bmi::Data
+--
+-personer: ArrayList&lt;Person&gt;
+--
++Data(): ctor
++getNavn(String cpr): String
++getVaegt(String cpr): double
++getHoejde(String cpr): double
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>392</x>
+      <y>406</y>
+      <w>322</w>
+      <h>196</h>
+    </coordinates>
+    <panel_attributes>bmi::Funk
+--
+-data: IData
+--
++Funk(IData data): ctor
++getBMI(String cpr): double
++getTextualBMI(String cpr): String
++getNavn(String cpr): String
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>868</x>
+      <y>196</y>
+      <w>294</w>
+      <h>168</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+bmi::IData
+--
+--
+~getNavn(String cpr): String
+~getVaegt(String cpr): double
+~getHoejde(String cpr): double
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>392</x>
+      <y>196</y>
+      <w>322</w>
+      <h>168</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+bmi::IFunk
+--
+--
+~getBMI(String cpr): double
+~getTextualBMI(String cpr): String
+~getNavn(String cpr): String
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>392</x>
+      <y>0</y>
+      <w>210</w>
+      <h>154</h>
+    </coordinates>
+    <panel_attributes>bmi::Tui
+--
+-funk: IFunk
+--
++Tui(IFunk funk): ctor
++dialog(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>0</y>
+      <w>238</w>
+      <h>98</h>
+    </coordinates>
+    <panel_attributes>bmi::Main
+--
+--
++main(String[] args): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
