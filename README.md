@@ -7,6 +7,9 @@ Link to google drive: https://drive.google.com/drive/u/0/folders/1nogcnVIkOYeV6L
 Link to course side: https://learn.inside.dtu.dk/d2l/home/145502
 
 
+# Denne readme er ikke færdig, og bare opsat som en start //
+
+
 # Guides
 Denne guide antager brugeren har klonet dette repository og har adgang til projekt-filerne lokalt.
 
