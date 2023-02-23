@@ -1,66 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0a137b17-63a3-41cd-8abf-0dbc10fc8b14" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/RoboRally.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/RoboRally.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_win_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_win_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/dtu/compute/se/pisd/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/dtu/compute/se/pisd/designpatterns/observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/dtu/compute/se/pisd/designpatterns/observer/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/dtu/compute/se/pisd/designpatterns/observer/package.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/dtu/compute/se/pisd/overview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/dtu/compute/se/pisd/roborally/RoboRally.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/dtu/compute/se/pisd/roborally/controller/AppController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/dtu/compute/se/pisd/roborally/controller/GameController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/dtu/compute/se/pisd/roborally/model/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/dtu/compute/se/pisd/roborally/model/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/dtu/compute/se/pisd/roborally/model/CommandCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/dtu/compute/se/pisd/roborally/model/CommandCardField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/dtu/compute/se/pisd/roborally/model/Heading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/dtu/compute/se/pisd/roborally/model/Phase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/dtu/compute/se/pisd/roborally/model/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/dtu/compute/se/pisd/roborally/model/Space.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/dtu/compute/se/pisd/roborally/view/BoardView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/dtu/compute/se/pisd/roborally/view/CardFieldView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/dtu/compute/se/pisd/roborally/view/PlayerView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/dtu/compute/se/pisd/roborally/view/PlayersView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/dtu/compute/se/pisd/roborally/view/RoboRallyMenuBar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/dtu/compute/se/pisd/roborally/view/SpaceView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/dtu/compute/se/pisd/roborally/view/ViewObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/roborally_rules.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dk/dtu/compute/se/pisd/roborally/controller/AppControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dk/dtu/compute/se/pisd/roborally/controller/GameControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +17,13 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2M8YlrDAvsrpWGL3eAr4cD9Ezdz" />
   <component name="ProjectLevelVcsManager">
@@ -91,6 +43,17 @@
     "last_opened_file_path": "C:/Users/Emilkr/Documents/GitHub/G05_Matador"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Roborally" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-19" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="dk.dtu.compute.se.pisd.roborally.RoboRally" />
+      <option name="VM_PARAMETERS" value="--module-path C:\Users\Emilkr\OneDrive\Skrivebord\javafx-sdk-19.0.2.1\lib --add-modules javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -99,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677150831029</updated>
-      <workItem from="1677150834275" duration="1032000" />
+      <workItem from="1677150834275" duration="2480000" />
     </task>
     <servers />
   </component>
