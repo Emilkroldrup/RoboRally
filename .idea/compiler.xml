@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="roborally" />
         <module name="02324-f23" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="02324-f23" target="17" />
+      <module name="roborally" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
