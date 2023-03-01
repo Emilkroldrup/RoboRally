@@ -1,0 +1,42 @@
+@startuml
+class Player
+class Gameboard
+class ProgrammingCard
+class Startboard
+class EnergyCubes
+class Timer
+class UpgradeCard
+class DamageCard
+class Playermat
+class Card
+class Token
+class RebootToken
+class CheckpointToken
+class SpecialProgrammingCard
+class Antenna
+class RobotFigure
+class RoboRallyGame
+class Board
+
+
+Card "240" ---- RoboRallyGame
+RoboRallyGame -- "1" Timer
+Player "2-6" -- RoboRallyGame
+RoboRallyGame -- "48" EnergyCubes
+RoboRallyGame  -- "6" Playermat
+RoboRallyGame - "42" Token
+RoboRallyGame -- "1" Antenna
+RoboRallyGame -- "6" RobotFigure
+Board "7" - RoboRallyGame
+Card <|-- "120" ProgrammingCard
+SpecialProgrammingCard "6" -|> Card
+Card <|-- "74" DamageCard
+Card <|- "40" UpgradeCard
+Token <|-- "6" RebootToken
+Token <|- "36" CheckpointToken
+Gameboard "6" -|> Board
+Startboard "1" --|> Board
+
+
+
+@enduml

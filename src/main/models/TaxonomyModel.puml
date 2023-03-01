@@ -1,0 +1,13 @@
+@startuml
+
+class RoboRally
+class Moving
+class Upgrade
+
+
+RoboRally --- Moving
+RoboRally --- Upgrade
+
+
+
+@enduml

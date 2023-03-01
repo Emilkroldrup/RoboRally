@@ -1,0 +1,18 @@
+@startuml
+left to right direction
+
+actor Player
+
+usecase "Select cards" as select
+usecase "Confirm program" as confirm
+usecase "Execute program" as execute
+
+Player --> select
+Player --> confirm
+Player --> execute
+
+usecase Win
+
+execute --> Win
+Win --> Player : Notify
+@enduml

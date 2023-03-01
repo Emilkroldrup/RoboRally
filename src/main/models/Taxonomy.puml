@@ -1,0 +1,85 @@
+@startuml
+
+class RoboRally
+RoboRally -- UpgradePhase
+RoboRally -- Programmingphase
+RoboRally -- Activationphase
+
+package UpgradePhase{
+package Playermat{
+class UpgradeSlot{
+PermanentUpgrades
+}
+}
+class EnergyCubeUsage
+package UpgradeShop{
+class Refresh{
+EveryRound
+}
+class BuyMaxCap{
+1
+}
+class PermanentUpgrades{
+Yellow
+MaxCap: 3
+}
+class TemporaryUpgrades{
+Orange
+MaxCap : 3
+}
+}
+}
+
+package Programmingphase{
+class MoveCard{
+Move1Space
+Move2Spaces
+Move3Spaces
+}
+class TurnCard{
+TurnLeft
+TurnRight
+U-turn
+}
+class PowerUpCard
+class Timer{
+30Seconds
+}
+class DamageCards{
+Spam
+TrojanHorse
+Virus
+Worm
+}
+}
+
+package Activationphase{
+class ConveyerBelt{
+Blue: Move2Spaces
+Green: Move1Space
+}
+class PushPanel{
+Move1Space
+}
+class Gears{
+TurnLeft
+TurnRight
+}
+class BoardLasers{
+DealsDamage
+}
+class RobotLasers{
+DealsDamage
+}
+class EnergySpaces{
+GrantsEnergyCube
+}
+class Checkpoint{
+ProgressToWin
+}
+
+}
+
+
+
+@enduml
