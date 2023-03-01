@@ -43,6 +43,7 @@ out/
 *.iml
 *.ipr
 *.iws
+workspace.xml
 
 ##############################
 ## Eclipse
